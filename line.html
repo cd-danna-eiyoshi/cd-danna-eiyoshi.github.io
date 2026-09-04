@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>公式LINE｜ゆきち夫婦</title>
+<meta name="description" content="クローン病と暮らすなかで作った、お守りがわりの6つを無料で配っています。">
+<style>
+  :root{--bg:#FAF8F4;--ink:#3a3633;--ink-light:#7a736c;--ink-faint:#a29b93;
+    --lav:#8f7fb8;--lav-deep:#6f5fa0;--lav-pale:#efeaf6;--line:#eee7dc;--green:#06C755;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--ink);
+    font-family:"Hiragino Mincho ProN","Yu Mincho",serif;
+    line-height:1.9;letter-spacing:.06em;font-size:16px;}
+  .wrap{max-width:620px;margin:0 auto;padding:0 24px;}
+  header.site{padding:26px 0;border-bottom:1px solid var(--line);text-align:center;}
+  header.site a{color:var(--ink-faint);text-decoration:none;font-size:.76rem;letter-spacing:.18em;}
+  .intro{padding:48px 0 32px;text-align:center;}
+  .intro h1{font-size:1.22rem;font-weight:600;line-height:1.9;margin-bottom:18px;}
+  .intro p{font-size:.88rem;color:var(--ink-light);line-height:1.95;}
+  .gift{background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;margin-bottom:10px;}
+  .gift b{display:block;font-size:.92rem;font-weight:600;color:var(--lav-deep);margin-bottom:4px;}
+  .gift span{font-size:.82rem;color:var(--ink-light);line-height:1.8;}
+  .cta-area{text-align:center;padding:36px 0 20px;}
+  .cta{display:inline-block;background:var(--green);color:#fff;text-decoration:none;
+    padding:15px 34px;border-radius:999px;font-size:.94rem;letter-spacing:.08em;
+    box-shadow:0 4px 14px rgba(6,199,85,.22);}
+  .cta small{display:block;font-size:.68rem;opacity:.9;letter-spacing:.05em;}
+  .cta-note{font-size:.76rem;color:var(--ink-light);margin-top:14px;line-height:1.9;}
+  .back{display:block;text-align:center;font-size:.82rem;color:var(--lav-deep);
+    text-decoration:none;padding:28px 0;}
+  footer{padding:32px 0 56px;border-top:1px solid var(--line);}
+  footer p{font-size:.7rem;color:var(--ink-faint);line-height:1.9;margin-bottom:10px;}
+</style>
+</head>
+<body>
+<script>
+  const URLS = { line: "https://lin.ee/NBolbg4" };   // ← index.html と同じURLに揃えてください
+  document.addEventListener("DOMContentLoaded",()=>{
+    document.querySelectorAll("[data-url]").forEach(a=>{a.href=URLS[a.dataset.url];});
+  });
+</script>
+
+<header class="site"><div class="wrap"><a href="index.html">ゆきち夫婦｜クローン病と20年、エレンタールと10年</a></div></header>
+
+<div class="wrap">
+  <section class="intro">
+    <h1>お守りがわりの6つ</h1>
+    <p>20年のあいだに、自分のために作ってきたものです。<br>
+       同じところでつまずく人が減ればいいなと思って、<br>公式LINEで無料で配っています。</p>
+  </section>
+
+  <div class="gift"><b>再燃を防ぐセルフチェックリスト</b><span>僕が10年、毎日見ている項目をまとめたものです。</span></div>
+  <div class="gift"><b>しんどい夜に読むお守りレター</b><span>眠れない夜のための1枚です。</span></div>
+  <div class="gift"><b>外食・コンビニの選び方メモ</b><span>迷ったときの、現実的な選択肢を書きました。</span></div>
+  <div class="gift"><b>診断されたお子さんのご家族へ</b><span>親御さんに伝えたいことをまとめました。</span></div>
+  <div class="gift"><b>最初の手続きメモ</b><span>お金と制度で、まずやることです。</span></div>
+  <div class="gift"><b>学校がしんどい日の乗り切りメモ</b><span>10代のあなたへ書きました。</span></div>
+
+  <div class="cta-area">
+    <a class="cta" data-url="line" href="#">公式LINEを見てみる<small>無料・いつでも解除できます</small></a>
+    <p class="cta-note">登録したあと、メニューから好きなものを選べます。<br>
+      売り込みの配信はしません。時々、こういう話を送っています。</p>
+  </div>
+
+  <a class="back" href="index.html">← 書いたものを読む</a>
+
+  <footer>
+    <p>【医療情報について】内容は個人の体験に基づくものであり、診断・治療を目的とした医療情報ではありません。治療に関する判断は、必ず主治医にご相談ください。</p>
+    <p>© ゆきち夫婦</p>
+  </footer>
+</div>
+</body>
+</html>
