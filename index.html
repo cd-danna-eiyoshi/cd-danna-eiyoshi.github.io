@@ -53,6 +53,13 @@
     padding:18px 0;border-bottom:1px solid var(--line);}
   .row b{font-weight:600;font-size:.92rem;}
   .row span{display:block;font-size:.78rem;color:var(--ink-light);margin-top:4px;line-height:1.8;}
+  /* 公式LINEの行だけ、LINEの緑でそっと目立たせる */
+  .row.line-row{background:#eef8f0;border:1px solid #cfe8d6;border-radius:12px;
+    padding:16px 16px;margin:12px 0 6px;border-bottom:1px solid #cfe8d6;position:relative;}
+  .row.line-row b{color:#1f8a45;}
+  .row.line-row .badge{display:inline-block;margin-left:8px;font-size:.66rem;font-weight:600;
+    color:#fff;background:#06C755;border-radius:999px;padding:2px 9px;vertical-align:middle;letter-spacing:.08em;}
+  .row.line-row .arrow{position:absolute;right:16px;top:50%;transform:translateY(-50%);color:#06C755;font-size:1rem;}
 
   footer{padding:40px 0 60px;margin-top:32px;border-top:1px solid var(--line);}
   footer p{font-size:.7rem;color:var(--ink-faint);line-height:1.9;margin-bottom:10px;}
@@ -94,7 +101,7 @@
     <a class="row" href="https://www.instagram.com/cd_danna_eiyoshi"><b>Instagram</b><span>毎日の食卓と、短いエッセイ</span></a>
     <a class="row" href="https://www.tiktok.com/@cd_danna_eiyoshi"><b>TikTok</b><span>日常の切り取りと、笑える話</span></a>
     <a class="row" href="https://www.threads.com/@cd_danna_eiyoshi"><b>Threads</b><span>その日に思ったこと</span></a>
-    <a class="row" href="line.html"><b>公式LINE</b><span>お守りがわりの6つを、無料で配っています</span></a>
+    <a class="row line-row" href="line.html"><b>公式LINE</b><em class="badge">無料配布中</em><span>お守りがわりの6つと、わが家の定食カード8つを、無料で配っています</span><span class="arrow">→</span></a>
     <a class="row" href="https://note.com/cd_danna_eiyoshi/n/n95fb5f5e296e"><b>note</b><span>20年ぶんの記録をまとめたもの</span></a>
   </section>
 
